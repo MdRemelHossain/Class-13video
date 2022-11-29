@@ -1,0 +1,215 @@
+
+/*  left to right  */
+.button{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f31515;
+    transition: 1.5s;
+    z-index: -1;
+}
+.button:hover::before{
+    width: 100%;
+}
+/* top to bottom  */
+.button1{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #f31515;
+    transition: 1.5s;
+    z-index: -1;
+}
+.button1:hover::before{
+    height: 100%;
+}
+/* right to left  */
+.button2{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button2::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #f31515;
+    transition: 1.5s;
+    z-index: -1;
+}
+.button2:hover::before{
+    width: 100%;
+}
+/* bottom to top  */
+.button3{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f31515;
+    transition: 1.5s;
+    z-index: -1;
+}
+.button3:hover::before{
+    height: 100%;
+}
+/* out to in  */
+.button4{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button4::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #f31515;
+    transition: 1s;
+    z-index: -1;
+}
+.button4::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #15f327;
+    transition: 1s;
+    z-index: -1;
+}
+.button4:hover::before{
+    width: 0;
+}
+.button4:hover::after{
+    width: 0;
+}
+/* in to out  */
+.button5{
+    background-color: #2980b9;
+    color: #fff;
+    display: inline-block;
+    width: 800px ;
+    height: 50px;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    font-size:40px;
+    line-height: 55px;
+    padding: 35px; 
+    position: relative;
+    z-index: 1;
+}
+.button5::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background-color: #f3151581;
+    transition: 1s;
+    z-index: -1;
+}
+.button5::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #15f32769;
+    transition: 1s;
+    z-index: -1;
+}
+.button5:hover::before{
+    width: 100%;
+}
+.button5:hover::after{
+    width: 100%;
+}
